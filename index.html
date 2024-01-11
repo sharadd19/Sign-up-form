@@ -24,23 +24,36 @@
                 <div class="formdetails">
                     <h3 class="title">Let's do this!</h3>
                     <div class="form-inputs">
-                        <div class="firstname-email-password">
-                            <label for="firstname">First name</label>
-                            <input required id="firstname" name="firstname">
-                            <label for="email">Email</label>
-                            <input required type="email" id="email" name="email">
-                            <label for="password">Password</label>
-                            <input required type="password" id="password" name="password">
-        
+                        <div class="firstname-lastname">
+                            <div class="firstname">
+                                <label for="firstname">First name</label>
+                                <input required id="firstname" name="firstname">
+                            </div>
+                            <div class="lastname">
+                                <label for="lastname">Last name</label>
+                                <input required id="lastname" name="lastname">
+                            </div>
                         </div>
-                        <div class="lastname-phone-confirm">
-                            <label for="lastname">Last name</label>
-                            <input required id="lastname" name="lastname">
-                            <label for="phonenumber">Phone number</label>
-                            <input type="text" id="phonenumber" name="phonenumber" maxlength="11">                                                                   
-                            <label for="confirmpassword">Confirm password</label>
-                            <input required type="password" id="confirmpassword" name="confirmpassword">
+                        <div class="email-phone">
+                            <div class="email">
+                                <label for="email">Email</label>
+                                <input required type="email" id="email" name="email">
+                            </div>
+                            <div class="phone">
+                                <label for="phonenumber">Phone number</label>
+                                <input type="text" id="phonenumber" name="phonenumber" maxlength="11">
+                            </div>                       
                         </div>
+                        <div class="password-confirmpassword">
+                            <div class="password">
+                                <label for="password">Password</label>
+                                <input required type="password" id="password" name="password">
+                            </div>
+                            <div class="confirmpassword">
+                                <label for="confirmpassword">Confirm password</label>
+                                <input required type="password" id="confirmpassword" name="confirmpassword">
+                            </div>
+                        </div>                            
                     </div>
                     <div class="passworderrormessage">
                         <text></text>

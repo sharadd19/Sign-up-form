@@ -41,16 +41,22 @@ form {
 }
 .form-inputs{
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: space-between;
     width:max-content;
     height: 70%;
 }
-.firstname-email-password, .lastname-phone-confirm {
+.firstname-lastname, .email-phone, .password-confirmpassword {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+   
+}
+.firstname, .lastname, .phone, .email, .password, .confirmpassword{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    margin-right:40px;
-    
 }
 img{
     width:250px;
