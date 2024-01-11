@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <div class="container">     
+                <div class="titlecontainer">
+                    <img src="Odin lined.png" class="logo">
+                    <div class="pictitle">ODIN</div>
+                </div>
+                <div>
+                    <img src="Green leaf.jpg" alt="" class="backgroundimage">
+                </div>
+            <form action="https://httpbin.org/post" method="post">                
+                <div class="information">
+                    <h3 class="signup">Sign up now to get started!</h3>
+                    <p class="tease">You <span><em>know</em></span> you want to.</p>
+                </div>
+                <div class="formdetails">
+                    <h3 class="title">Let's do this!</h3>
+                    <div class="form-inputs">
+                        <div class="firstname-email-password">
+                            <label for="firstname">First name</label>
+                            <input required id="firstname" name="firstname">
+                            <label for="email">Email</label>
+                            <input required type="email" id="email" name="email">
+                            <label for="password">Password</label>
+                            <input required type="password" id="password" name="password">
+        
+                        </div>
+                        <div class="lastname-phone-confirm">
+                            <label for="lastname">Last name</label>
+                            <input required id="lastname" name="lastname">
+                            <label for="phonenumber">Phone number</label>
+                            <input type="text" id="phonenumber" name="phonenumber" maxlength="11">                                                                   
+                            <label for="confirmpassword">Confirm password</label>
+                            <input required type="password" id="confirmpassword" name="confirmpassword">
+                        </div>
+                    </div>
+                    <div class="passworderrormessage">
+                        <text></text>
+                    </div>
+                </div>
+                <div class="account">
+                    <button class="createaccount">Create Account</button>
+                    <p class="accountexists">Already have an account? <span class="login">Log in</span></p>
+                </div>
+            </form>
+        </div>    
+    </body>
+</html>
